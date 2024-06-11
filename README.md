@@ -1,4 +1,4 @@
-# DevOps Deployment Automation with Terraform, AWS and Docker - Starter Code
+# DevOps Deployment Automation with Terraform, AWS and Docker 
 
 This project contains the starter code for our course: [DevOps Deployment Automation with Terraform, AWS and Docker](https://londonapp.dev/c3).
 
@@ -155,10 +155,6 @@ Each variable and their state is listed below:
 - `TF_VAR_db_password` (**Masked**): Password for the RDS database (make something up).
 - `TF_VAR_django_secret_key` (**Masked**, **Protected**): Secret key for the Django app (make something up).
 
-## Section Notes and Resources
-
-### Software Requirements
-
 #### Checking Each Dependency
 
 Check docker is running:
@@ -198,14 +194,3 @@ git config --global user.email email@example.com
 git config --global user.name "User Name" 
 git config --global push.autoSetupRemote true
 ```
-
-## Other courses
-
-Check out our courses on [londonappdeveloper.com](https://londonappdeveloper.com).
-
-Or find them below:
-
-- [Python for Absolute Beginners](https://londonapp.dev/c4)
-- [Build a Backend REST API with Python & Django REST Framework - Beginner](https://londonapp.dev/c1)
-- [Build a Backend REST API with Python & Django REST Framework - Advanced](https://londonapp.dev/c2)
-- [Deploy a Serverless Django App on Google App Engine](https://londonapp.dev/c5)
